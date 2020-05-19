@@ -1,19 +1,39 @@
-# BLUP_Brainhack-Learning-Unicorn-Project
-Trying to deal with new stuff learned at the amazing Brainhack school
+# BLUP: Brainhack Learning Unicorn Project
 
-Author: Elise Alix Douard
+*Trying to deal with new stuff learned at the amazing Brainhack school*
+
+<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+Author: Elise Alix Douard 
+
 
 ## Quick presentation
 
 Welcome to this draft dear unicorn student ! 
 
 <p align="center">
-  <img width="460" height="300" src="https://media.giphy.com/media/CzQ9Kl1UIt8hG/giphy.gif">
+  <img width="100" height="100" src="cannoe.png">
 </p>
 
-I am Elise, a Ph.D. student working on the contribution of genetic to neurodevelopmental disorders as autism. I don't really know if I fit in a specific domain. I work mostly with genetic data, clinical phenotypes and doing a lot of statistics and graphs. 
+I am Elise, Ph.D. student since near to 4 years, and working on **the contribution of genetic to neurodevelopmental disorders** as autism. 
+I don't really know if I fit in a specific domain. 
+
+I currently work with genetic data (Copy Number Variant), clinical phenotypes (diagnosis and other related measures, e.g. SRS) and doing a lot of statistics and graphs (in R). But my initial formation was in neurosciences. 
+
+I previously did a bachelor in Biomedical with a specialization in neurosciences, and did a Master in Cognitive Neurosciences where I used to work with multimodal data with a combination of Arterial Spin Labelling MRI data (preprocessing on Matlab and SPM) and Eye-tracking data. 
+
+Since I started my Ph.D., I never used MRI data anymore, and I am here to take a revange on that. 
+
+I am also an Open Sciences enthusiast!
+
+**Skills:**
+- Data management
+- Satistics
+- Debugging codes
+
+/!\ advertisment /!\ 
+click ![here](https://www.biorxiv.org/content/10.1101/2020.03.09.979815v1.full) if you want to have a look on my work
 
 ## Project draft
 
-Dunno what will be in this project yet. The ideal will be to play with clinical data or social cognition fMRI data (if available) in the aim to learn how to preprocessed fMRI data (or using derived fMRI data), as well as how to apply machine learning methodologies. 
+Dunno what will be in this project yet. The ideal will be to play with clinical data or social cognition fMRI data (if available) in the aim to learn how to preprocessed fMRI data (or using derived fMRI data), as well as how to apply machine learning methodologies. If genetic data are also available, I am willing to add them to the analyses. 
 
