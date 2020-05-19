@@ -7,5 +7,7 @@ Author: Elise Alix Douard
 
 Welcome to this draft dear unicorn student ! 
 
+![BrainHack School](BmF10VY.mp4)
+
 I am Elise, a Ph.D. student working on the contribution of genetic to neurodevelopmental disorders as autism. I don't really know if I fit in a specific domain. I work mostly with genetic data, clinical phenotypes and doing a lot of statistics and graphs. 
 
