@@ -29,13 +29,18 @@ Since I started my Ph.D., I never used MRI data anymore, and I am here to take a
 I am also an Open Sciences enthusiast!
 
 **Skills:**
-- Data management
+- Data management (feed me with multimodal data plz)
 - Satistics
 - Debugging codes
 
 /!\ advertisment /!\ 
 
 click [here](https://www.biorxiv.org/content/10.1101/2020.03.09.979815v1.full) if you want to have a look on my work
+
+**Here to learn:**
+- Universal languages to share science (such as BIDS nomenclature/tools)
+- Machine/Deep learning (more complex stats!)
+- Python libraries to change the R routine
 
 ## Project draft
 
