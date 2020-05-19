@@ -2,7 +2,10 @@
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
 
-<img align="left" width="100" height="100" src="cannoe.png">
+<p align="left">
+<img width="100" height="100" src="cannoe.png">
+</p>
+
 Author: Elise Alix Douard 
 
 
@@ -31,7 +34,8 @@ I am also an Open Sciences enthusiast!
 - Debugging codes
 
 /!\ advertisment /!\ 
-click ![here](https://www.biorxiv.org/content/10.1101/2020.03.09.979815v1.full) if you want to have a look on my work
+
+click [here](https://www.biorxiv.org/content/10.1101/2020.03.09.979815v1.full) if you want to have a look on my work
 
 ## Project draft
 
