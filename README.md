@@ -13,3 +13,7 @@ Welcome to this draft dear unicorn student !
 
 I am Elise, a Ph.D. student working on the contribution of genetic to neurodevelopmental disorders as autism. I don't really know if I fit in a specific domain. I work mostly with genetic data, clinical phenotypes and doing a lot of statistics and graphs. 
 
+## Project draft
+
+Dunno what will be in this project yet. The ideal will be to play with clinical data or social cognition fMRI data (if available) in the aim to learn how to preprocessed fMRI data (or using derived fMRI data), as well as how to apply machine learning methodologies. 
+
