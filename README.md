@@ -2,7 +2,7 @@
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
 
-<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+<img align="left" width="100" height="100" src="cannoe.png">
 Author: Elise Alix Douard 
 
 
@@ -11,7 +11,7 @@ Author: Elise Alix Douard
 Welcome to this draft dear unicorn student ! 
 
 <p align="center">
-  <img width="100" height="100" src="cannoe.png">
+  <img src="https://media.giphy.com/media/CzQ9Kl1UIt8hG/giphy.gif">
 </p>
 
 I am Elise, Ph.D. student since near to 4 years, and working on **the contribution of genetic to neurodevelopmental disorders** as autism. 
