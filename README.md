@@ -1,12 +1,13 @@
-# BLUP: Brainhack Learning Unicorn Project
+# BLUP: Brain Learning Unicorn Project
+
+Can a model predict if an individual is carrier of a pathogenic genetic variant based on Brain imagery derived data?
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
 
 
 <p align="left"> <img width="100" height="100" src="cannoe.png"> 
 </p> 
-Author: Elise Alix Douard
-
+Project contributors: BHS, Elise Alix Douard & anyone interested 
 
 
 ## Quick presentation
@@ -35,13 +36,14 @@ I am also an Open Sciences enthusiast!
 - Machine/Deep learning (more complex stats!)
 - Python libraries to change from the R routine
 
-# Project draft: Brainhack Learning Unicorn Project
+# Project draft: Brain Learning Unicorn Project
 
 ## Summary
 
-There is no clear idea for this project yet. 
-The ideal will be to play with multimodal data (derived anatomical MRI data, genetic, other clinical data) in the aim to learn how to apply deep learning models. 
-The hypothesis will be basic, the focus will be on the best machine learning model for the multimodal data. 
+Can a model predict if an individual is carrier of a pathogenic genetic variant based on Brain imagery derived data?
+This project aims to feed a model with brains to predict if an individual is carrier of a pathogenic genetic variant (meaning that the DNA alteration is deleterious and formally associated to neurodevelopmental disorders and other psychiatric disorders).
+The hypothesis is not based on strong assumptions, the focus will be on learning hoe to apply machine learning model for multimodal dataset (derived anatomical MRI data, genetic, other clinical data).
+
 
 ## Background
 
@@ -50,6 +52,7 @@ The hypothesis will be basic, the focus will be on the best machine learning mod
 2) Deal with missing values 
 
 ### Aims: 
+
 Compare the model performances when infering a specific data categorization
 
 ## Tools 
@@ -59,7 +62,10 @@ Compare the model performances when infering a specific data categorization
 - Github to share the scripts and results 
 
 ## Data
-
+A first thought is to use data from UK Biobank:
+- From the genetic side: Carriers of the most pathogenic CNVs vs. controls
+- From the MRI side: All derived anatomical OR fMRI data from these individuals
+- From the phenotypic part: sex, age, ... all the interesting data pertinent for the project
 
 ## 
 
