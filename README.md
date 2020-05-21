@@ -91,7 +91,7 @@ A Multisite Genetic-First Study*"
 Compare the model performances when infering the genetic profil of an individual.
 
 ## Tools 
-- Python to use nilearn library
+- Python to use nilearn and sklearn libraries
 - Jupyter notebook to keep track of the project
 - Compute Quebec to run the analyses on the complete sample (<3,000?)
 - Git/Github to share the scripts and results 
