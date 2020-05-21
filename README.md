@@ -18,7 +18,7 @@ Welcome to this draft dear unicorn student !
 <p align="center">
   <img src="https://media.giphy.com/media/CzQ9Kl1UIt8hG/giphy.gif">
 </p>
-Source: https://media.giphy.com/
+<font size="1.5"> Source: https://media.giphy.com/</font> 
 
 I am Elise, Ph.D. student since near to 4 years, and working on **the contribution of genetic to neurodevelopmental disorders** as autism. [/!\ advertisment /!\ ](https://www.biorxiv.org/content/10.1101/2020.03.09.979815v1.full) I don't really fit in a specific domain (genetic/cognitive neurosciences/psychology/neurosciences). I guess it is what we call a unicorn student?
 
@@ -41,23 +41,29 @@ I am also an Open Sciences enthusiast!
 # Project draft: Brain Learning Unicorn Project
 
 ## Summary
-Can a model predict if an individual is carrier of a pathogenic genetic variant based on Brain imagery derived data?
-This project aims to feed a model with brains to predict if an individual is carrier of a pathogenic genetic variant (meaning that the DNA alteration is deleterious and formally associated to neurodevelopmental disorders and other psychiatric disorders).
-The hypothesis is not based on strong assumptions, the focus will be on learning how to apply machine learning model for multimodal dataset (derived anatomical MRI data, genetic, other clinical data).
+<p>Can a model predict if an individual is carrier of a pathogenic genetic variant based on Brain imagery derived data?</p> 
+
+This project aims to feed a **learning** model with **brains** to predict if an individual is carrier of a pathogenic **genetic** variant (meaning that the DNA alteration is deleterious and formally associated to neurodevelopmental disorders and other psychiatric disorders).
+
+The hypothesis is not based on strong assumptions (even if there is multiple publication showing brain alterations associates to pathogenic CNVs), the focus will be on learning how to apply machine learning model for **multimodal dataset**(derived anatomical MRI data, genetic, other clinical data).
 
 ## Background
-What is a pathogenic genetic Copy Number Variants (CNV)?
+#### What is a pathogenic genetic Copy Number Variants (CNV)?
 
-<p align="center"> <img width="100" height="100" src="Figure1.pdf"> 
+<p align="center"> <img src="Figure 1_page-0001.jpg"> 
 </p> 
+<font size="1.5">Source: Me</font>
 
-Is there specific brain pattern associated to these CNVs?
-[Clara Moreau et al (2019)](https://www.biorxiv.org/content/10.1101/862615v1.full) *Big up Clara!*: Neuropsychiatric mutations delineate functional brain connectivity dimensions contributing to autism and schizophrenia
+
+#### Is there specific brain pattern associated to these CNVs?
+[Clara Moreau et al (2019)](https://www.biorxiv.org/content/10.1101/862615v1.full) *Big up Clara!*: 
+
+"*Neuropsychiatric mutations delineate functional brain connectivity dimensions contributing to autism and schizophrenia*"
 
 <p align="center">
   <img src="https://www.biorxiv.org/content/biorxiv/early/2019/12/06/862615/F1.large.jpg?width=800&height=600&carousel=1">
 </p>
-Source: Clara Moreau https://www.biorxiv.org/content/10.1101/862615v1.full
+<font size="1.5">Source: Clara Moreau https://www.biorxiv.org/content/10.1101/862615v1.full</font>
 
 ### Problematic: 
 (Not clear problematic in mind but here is what I want to work on the most)
@@ -74,19 +80,19 @@ Compare the model performances when infering a the genetic profil of an individu
 - Git/Github to share the scripts and results 
 
 ## Data
-A first thought is to use data from UK Biobank:
+A first thought is to use data from [UK Biobank](https://www.ukbiobank.ac.uk/):
 - From the genetic side: [Kendall et al.](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B) already published a paper on 33 pathogenic CNV using 420,247 individuals (2019).
 For the moment, we have a list of 1,265 individuals with pottentially pathogenic CNVs.
-- From the MRI side: All derived anatomical OR fMRI data are available for 40,000 individuals
-- From the phenotypic part: sex, age, ... all the interesting data pertinent for the project which are avalable for most individuals from this cohort
+- From the MRI side: All derived anatomical OR fMRI data are available for 40,000 individuals.
+- From the phenotypic side: sex, age, ... all the interesting data pertinent for the project which are avalable for most individuals from this cohort.
 
-The final dataset will be a smaller sample of individuals carriers of the most pathogenic CNVs (among the 1,265 selected by [Kendall et al. (2020)](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B)) vs. controls.
+The final dataset will be a smaller sample of individuals carriers of the most pathogenic CNVs (among the 1,265 selected by [Kendall et al. (2019)](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B)) vs. controls.
 These individuals will be selected among the 40,000 with derived MRI data.
-/!\ The most pathogenic CNVs are really rare, the sample may be much smaller.
+<p><span style="color:red">/!\ The most pathogenic CNVs are really rare, the sample may be much smaller.</span></p>
 
 ## Deliverables
 In this GitHub repository:
-- README.md file
+- README file
 - A detailed documentation explaining how the data were acquired, processed, analysed and describing the model used.
 - Jupyter notebook detailing the data (selection, distribution,...), the implementation of machine learning algorithms, and the results
 - Slides (using Rise) presenting the project
