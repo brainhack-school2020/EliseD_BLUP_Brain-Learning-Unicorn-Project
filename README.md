@@ -60,6 +60,19 @@ The hypothesis is not based on strong assumptions (even if there is multiple pub
 
 
 #### Is there specific brain pattern associated to these CNVs?
+
+[Sandra Brevet et al (2018)](http://www.sciencedirect.com/science/article/pii/S000632231831401X) *Big up Sandra!*: 
+
+"*Quantifying the Effects of 16p11.2 Copy
+Number Variants on Brain Structure:
+A Multisite Genetic-First Study*"
+
+<p align="center">
+  <img src="Figure2.png">
+</p>
+<font size="1.5">Source: Sandra Martin-Brevet http://www.sciencedirect.com/science/article/pii/S000632231831401X</font>
+
+
 [Clara Moreau et al (2019)](https://www.biorxiv.org/content/10.1101/862615v1.full) *Big up Clara!*: 
 
 "*Neuropsychiatric mutations delineate functional brain connectivity dimensions contributing to autism and schizophrenia*"
