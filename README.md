@@ -18,9 +18,13 @@ Welcome to this draft dear unicorn student !
 <p align="center">
   <img src="https://media.giphy.com/media/CzQ9Kl1UIt8hG/giphy.gif">
 </p>
-<font size="1.5"> Source: https://media.giphy.com/</font> 
+<p> <font size="1.5"> Source: https://media.giphy.com/</font></p> 
 
-I am Elise, Ph.D. student since near to 4 years, and working on **the contribution of genetic to neurodevelopmental disorders** as autism. [/!\ advertisment /!\ ](https://www.biorxiv.org/content/10.1101/2020.03.09.979815v1.full) I don't really fit in a specific domain (genetic/cognitive neurosciences/psychology/neurosciences). I guess it is what we call a unicorn student?
+I am Elise, Ph.D. student since near to 4 years, and working on **the contribution of genetic to neurodevelopmental disorders** as autism. 
+
+[/!\ unwanted article advertisment /!\ ](https://www.biorxiv.org/content/10.1101/2020.03.09.979815v1.full)
+
+I don't really fit in a specific domain (genetic/cognitive neurosciences/psychology/neurosciences). I guess it is what we call a unicorn student?
 
 I currently work with genetic data (Copy Number Variants), clinical phenotypes and doing a lot of statistics and graphs. But my initial formation was in cogitive neurosciences where I started to work with multimodal data (combination of Arterial Spin Labelling MRI data and Eye-tracking data).  
 
@@ -52,7 +56,7 @@ The hypothesis is not based on strong assumptions (even if there is multiple pub
 
 <p align="center"> <img src="Figure 1_page-0001.jpg"> 
 </p> 
-<font size="1.5">Source: Me</font>
+<font size="1.5">Source: Chapter in press</font>
 
 
 #### Is there specific brain pattern associated to these CNVs?
@@ -71,7 +75,7 @@ The hypothesis is not based on strong assumptions (even if there is multiple pub
 2) Deal with missing values 
 
 ### Aims: 
-Compare the model performances when infering a the genetic profil of an individual.
+Compare the model performances when infering the genetic profil of an individual.
 
 ## Tools 
 - Python to use nilearn library
@@ -88,6 +92,11 @@ For the moment, we have a list of 1,265 individuals with pottentially pathogenic
 
 The final dataset will be a smaller sample of individuals carriers of the most pathogenic CNVs (among the 1,265 selected by [Kendall et al. (2019)](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B)) vs. controls.
 These individuals will be selected among the 40,000 with derived MRI data.
+
+<p align="center">
+  <img src="DataMethod.png">
+</p>
+
 <p><span style="color:red">/!\ The most pathogenic CNVs are really rare, the sample may be much smaller.</span></p>
 
 ## Deliverables
@@ -95,5 +104,6 @@ In this GitHub repository:
 - README file
 - A detailed documentation explaining how the data were acquired, processed, analysed and describing the model used.
 - Jupyter notebook detailing the data (selection, distribution,...), the implementation of machine learning algorithms, and the results
+- All related scipts
 - Slides (using Rise) presenting the project
 
