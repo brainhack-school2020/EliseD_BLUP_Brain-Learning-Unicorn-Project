@@ -70,8 +70,8 @@ A Multisite Genetic-First Study*"
 <p align="center">
   <img src="Figure2.png">
 </p>
-<font size="1.5">Source: Sandra Martin-Brevet http://www.sciencedirect.com/science/article/pii/S000632231831401X</font>
-
+<p> <font size="1.5">Source: Sandra Martin-Brevet http://www.sciencedirect.com/science/article/pii/S000632231831401X</font>
+</p>
 
 [Clara Moreau et al (2019)](https://www.biorxiv.org/content/10.1101/862615v1.full) *Big up Clara!*: 
 
