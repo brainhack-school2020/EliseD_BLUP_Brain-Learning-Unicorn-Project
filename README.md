@@ -1,6 +1,6 @@
 # BLUP: Brain Learning Unicorn Project
 
-Can a model predict if an individual is carrier of a pathogenic genetic variant based on Brain imagery derived data?
+Can a model predict if an individual is carrier of a pathogenic genetic copy number variant based on Brain imagery derived data?
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
 
@@ -45,11 +45,11 @@ I am also an Open Sciences enthusiast!
 # Project draft: Brain Learning Unicorn Project
 
 ## Summary
-<p>Can a model predict if an individual is carrier of a pathogenic genetic variant based on Brain imagery derived data?</p> 
+<p>Can a model predict if an individual is carrier of a pathogenic genetic copy number variant based on Brain imagery derived data?</p> 
 
 This project aims to feed a **learning** model with **brains** to predict if an individual is carrier of a pathogenic **genetic** variant (meaning that the DNA alteration is deleterious and formally associated to neurodevelopmental disorders and other psychiatric disorders).
 
-The hypothesis is not based on strong assumptions (even if there is multiple publication showing brain alterations associates to pathogenic CNVs), the focus will be on learning how to apply machine learning model for **multimodal dataset**(derived anatomical MRI data, genetic, other clinical data).
+The hypothesis is not based on strong assumptions (even if there is multiple publications showing brain alterations associated to pathogenic CNVs), the focus will be on learning how to apply machine learning model for **multimodal dataset**(derived anatomical MRI data, genetic, other clinical data).
 
 ## Background
 #### What is a pathogenic genetic Copy Number Variants (CNV)?
@@ -59,10 +59,11 @@ The hypothesis is not based on strong assumptions (even if there is multiple pub
 <font size="1.5">Source: Chapter in press</font>
 
 
-#### Is there specific brain pattern associated to these CNVs?
+#### Is there specific brain alteration patterns associated to these CNVs?
+
+- **Structural alterations**: 
 
 [Sandra Brevet et al (2018)](http://www.sciencedirect.com/science/article/pii/S000632231831401X) *Big up Sandra!*: 
-
 "*Quantifying the Effects of 16p11.2 Copy
 Number Variants on Brain Structure:
 A Multisite Genetic-First Study*"
@@ -73,8 +74,9 @@ A Multisite Genetic-First Study*"
 <p> <font size="1.5">Source: Sandra Martin-Brevet http://www.sciencedirect.com/science/article/pii/S000632231831401X</font>
 </p>
 
-[Clara Moreau et al (2019)](https://www.biorxiv.org/content/10.1101/862615v1.full) *Big up Clara!*: 
+- **Connectivity alterations**:
 
+[Clara Moreau et al (2019)](https://www.biorxiv.org/content/10.1101/862615v1.full) *Big up Clara!*: 
 "*Neuropsychiatric mutations delineate functional brain connectivity dimensions contributing to autism and schizophrenia*"
 
 <p align="center">
@@ -85,22 +87,28 @@ A Multisite Genetic-First Study*"
 ### Problematic: 
 (Not clear problematic in mind but here is what I want to work on the most)
 1) Avoiding the transformation of the data 
-2) Deal with missing values 
+2) Deal with missing values (see 24''58min in the [presentation of Gaël Varoquaux](https://www.youtube.com/watch?reload=9&v=wIMJVgkQjNY&feature=youtu.be))
 
 ### Aims: 
-Compare the model performances when infering the genetic profil of an individual.
+
+Learning how to:
+1) Properly share project related files
+2) Use machine learning models 
+3) Use python instead of R
+
+Main goal: Compare the model performances when infering the genetic profile of an individual.
 
 ## Tools 
-- Python to use nilearn and sklearn libraries
+- Git/Github to share the scripts and results 
+- Python using nilearn and sklearn libraries
 - Jupyter notebook to keep track of the project
 - Compute Quebec to run the analyses on the complete sample (<3,000?)
-- Git/Github to share the scripts and results 
 
 ## Data
 A first thought is to use data from [UK Biobank](https://www.ukbiobank.ac.uk/):
-- From the genetic side: [Kendall et al.](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B) already published a paper on 33 pathogenic CNV using 420,247 individuals (2019).
+- From the genetic side: [Kendall et al. (2019)](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B) already published a paper on 33 pathogenic CNV using 420,247 individuals.
 For the moment, we have a list of 1,265 individuals with pottentially pathogenic CNVs.
-- From the MRI side: All derived anatomical OR fMRI data are available for 40,000 individuals.
+- From the MRI side: All derived structural, diffusion and fMRI data are available for 40,000 individuals. I will focus on structural data.
 - From the phenotypic side: sex, age, ... all the interesting data pertinent for the project which are avalable for most individuals from this cohort.
 
 The final dataset will be a smaller sample of individuals carriers of the most pathogenic CNVs (among the 1,265 selected by [Kendall et al. (2019)](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B)) vs. controls.
