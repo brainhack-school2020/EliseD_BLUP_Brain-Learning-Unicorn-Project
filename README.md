@@ -68,7 +68,7 @@ Number Variants on Brain Structure:
 A Multisite Genetic-First Study*"
 
 <p align="center">
-  <img src="Figure2.png">
+  <img src="https://ars.els-cdn.com/content/image/1-s2.0-S000632231831401X-gr3.jpg">
 </p>
 <p> <font size="1.5">Source: Sandra Martin-Brevet http://www.sciencedirect.com/science/article/pii/S000632231831401X</font>
 </p>
