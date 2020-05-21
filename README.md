@@ -43,7 +43,7 @@ I am also an Open Sciences enthusiast!
 ## Summary
 Can a model predict if an individual is carrier of a pathogenic genetic variant based on Brain imagery derived data?
 This project aims to feed a model with brains to predict if an individual is carrier of a pathogenic genetic variant (meaning that the DNA alteration is deleterious and formally associated to neurodevelopmental disorders and other psychiatric disorders).
-The hypothesis is not based on strong assumptions, the focus will be on learning hoe to apply machine learning model for multimodal dataset (derived anatomical MRI data, genetic, other clinical data).
+The hypothesis is not based on strong assumptions, the focus will be on learning how to apply machine learning model for multimodal dataset (derived anatomical MRI data, genetic, other clinical data).
 
 ## Background
 What is a pathogenic genetic Copy Number Variants (CNV)?
