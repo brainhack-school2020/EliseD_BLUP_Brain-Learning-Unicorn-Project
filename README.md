@@ -1,6 +1,6 @@
 # BLUP: Brain Learning Unicorn Project
 
-Can a model predict if an the genetic profile of an individual based on brain imagery derived data?
+Can a model predict the genetic profile of an individual based on brain imagery derived data?
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
 
