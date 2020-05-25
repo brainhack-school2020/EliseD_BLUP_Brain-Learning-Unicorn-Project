@@ -62,12 +62,12 @@ The hypothesis is not based on strong assumptions (even if there is multiple pub
 
 #### What is a pathogenic genetic Copy Number Variants (CNV)?
 
-A pathogenic CNV is a gain or a loss of the portion of the DNA, which encompassed genes essential for the normal development of an individual, and which is formally associated to neurodevelopmental disorders or psychiatric disorders. 
+A pathogenic CNV is a gain or a loss of a DNA portion, which encompassed genes essential for the normal development of an individual, and which is formally associated to neurodevelopmental disorders or psychiatric disorders. 
 
 <p align="center"> <img src="Figure 1_page-0001.jpg"> 
 </p> 
 
-**Figure 1:** Representation of the 16p11.2 locus. A. 16p11.2 locus with genes (Refseq indentification) and segmental duplications corresponding to breakpoint 4 and 5 (where the DNA is more susceptible to break). Coordinates are based on Hg19 version of the genome reference. B. Coding genes encompassed in the 16p11.2 locus and scores corresponding to their intolerance to loss of function (pLI, observed/expected (o/e), and LOEUF defined by gnomAD v.2.1.1, Karczewski et al., bioRxiv, 2019). Genes in red are intolerant to loss of function. 
+**Figure 1:** Representation of the 16p11.2 CNV. A. 16p11.2 region with genes (Refseq indentification) and segmental duplications corresponding to breakpoint 4 and 5 (where the DNA is more susceptible to break). Coordinates are based on Hg19 version of the genome reference. B. Coding genes encompassed in the 16p11.2 locus and scores corresponding to their intolerance to loss of function (pLI, observed/expected (o/e), and LOEUF defined by gnomAD v.2.1.1, Karczewski et al., bioRxiv, 2019). Genes in red are intolerant to loss of function. 
 
 <font size="1.5">Source: Chapter in press</font>
 
@@ -96,12 +96,17 @@ This paper shows that beyound an effect of the well known 16p11.2 CNV on global 
 
 - **Connectivity alterations**:
 
+An effect on connectivity have also been widely shown, but the affected connections vary from the cohorts used. 
+
 [Clara Moreau et al (2019)](https://www.biorxiv.org/content/10.1101/862615v1.full) *Big up Clara!*: 
 "*Neuropsychiatric mutations delineate functional brain connectivity dimensions contributing to autism and schizophrenia*"
 
 <p align="center">
   <img src="https://www.biorxiv.org/content/biorxiv/early/2019/12/06/862615/F1.large.jpg?width=800&height=600&carousel=1">
 </p>
+
+**Figure 3:** Connectome-wide effects of CNVs (a-b): Scatterplot (hexagonal plot), showing estimates (beta values) from connectome-wide association studies (CWAS) performed between 16p11.2 (a) and 22q11.2 (b) CNVs and their respective controls. In total, 2,080 beta estimates were obtained from a linear model computed from z-scored connectomes based on the variance of the respective controls. The color hue represents the number of beta estimates in the hexagon bin. Y axis: beta values associated with deletions (CWAS comparing deletions vs controls). X axis: beta-values associated with duplications (CWAS comparing duplications vs controls). (c-d): Each chord diagram shows the top 20% of connections surviving FDR correction (q < 0.05) from the 16p11.2 deletion (c) and 22q11.2 deletion (d) CWAS. Each chord represents a significantly altered connection between two functional seed regions. All 64 seed regions are represented in the dark grey inner circle. The width of the seed region in the grey inner circle corresponds to the number of altered connections. Seed regions are grouped into 12 functional networks (outer ring, Supplementary Table S1.9). Networks are represented in 12 brains below the two diagrams. Red chords represent overconnectivity and blue chords underconnectivity.
+
 <font size="1.5">Source: Clara Moreau https://www.biorxiv.org/content/10.1101/862615v1.full</font>
 
 ### Problematic: 
