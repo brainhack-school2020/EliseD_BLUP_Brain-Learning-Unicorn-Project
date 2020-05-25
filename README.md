@@ -56,7 +56,7 @@ I am also an Open Sciences enthusiast!
 
 This project aims to feed a **learning** model with **brains** to predict if an individual is carrier of a pathogenic **genetic** variant (meaning that the DNA alteration is deleterious and formally associated to neurodevelopmental disorders and other psychiatric disorders).
 
-The hypothesis is not based on strong assumptions (even if there is multiple publications showing brain alterations associated to pathogenic CNVs), the focus will be on learning how to apply machine learning model for **multimodal dataset**(derived anatomical MRI data, genetic, other clinical data).
+The hypothesis is not based on strong assumptions (even if there is multiple publications showing brain alterations associated to pathogenic CNVs), the focus will be on learning how to apply machine learning model for **multimodal dataset** (derived anatomical MRI data, genetic, other clinical data).
 
 ## Background
 
@@ -67,7 +67,7 @@ A pathogenic CNV is a gain or a loss of a DNA portion, which encompassed genes e
 <p align="center"> <img src="Figure 1_page-0001.jpg"> 
 </p> 
 
-**Figure 1:** Representation of the 16p11.2 CNV. A. 16p11.2 region with genes (Refseq indentification) and segmental duplications corresponding to breakpoint 4 and 5 (where the DNA is more susceptible to break). Coordinates are based on Hg19 version of the genome reference. B. Coding genes encompassed in the 16p11.2 locus and scores corresponding to their intolerance to loss of function (pLI, observed/expected (o/e), and LOEUF defined by gnomAD v.2.1.1, Karczewski et al., bioRxiv, 2019). Genes in red are intolerant to loss of function. 
+**Figure 1:** Representation of the 16p11.2 CNV. (A) 16p11.2 region with genes (Refseq indentification) and segmental duplications corresponding to breakpoint 4 and 5 (where the DNA is more susceptible to break). Coordinates are based on Hg19 version of the genome reference. (B) Coding genes encompassed in the 16p11.2 locus and scores corresponding to their intolerance to loss of function (pLI, observed/expected (o/e), and LOEUF defined by gnomAD v.2.1.1, Karczewski et al., bioRxiv, 2019). Genes in red are intolerant to loss of function. 
 
 <font size="1.5">Source: Chapter in press</font>
 
@@ -105,24 +105,29 @@ An effect on connectivity have also been widely shown, but the affected connecti
   <img src="https://www.biorxiv.org/content/biorxiv/early/2019/12/06/862615/F1.large.jpg?width=800&height=600&carousel=1">
 </p>
 
-**Figure 3:** Connectome-wide effects of CNVs (a-b): Scatterplot (hexagonal plot), showing estimates (beta values) from connectome-wide association studies (CWAS) performed between 16p11.2 (a) and 22q11.2 (b) CNVs and their respective controls. In total, 2,080 beta estimates were obtained from a linear model computed from z-scored connectomes based on the variance of the respective controls. The color hue represents the number of beta estimates in the hexagon bin. Y axis: beta values associated with deletions (CWAS comparing deletions vs controls). X axis: beta-values associated with duplications (CWAS comparing duplications vs controls). (c-d): Each chord diagram shows the top 20% of connections surviving FDR correction (q < 0.05) from the 16p11.2 deletion (c) and 22q11.2 deletion (d) CWAS. Each chord represents a significantly altered connection between two functional seed regions. All 64 seed regions are represented in the dark grey inner circle. The width of the seed region in the grey inner circle corresponds to the number of altered connections. Seed regions are grouped into 12 functional networks (outer ring, Supplementary Table S1.9). Networks are represented in 12 brains below the two diagrams. Red chords represent overconnectivity and blue chords underconnectivity.
+**Figure 3:** Connectome-wide effects of CNVs. (a-b) Scatterplot (hexagonal plot), showing estimates (beta values) from connectome-wide association studies (CWAS) performed between 16p11.2 (a) and 22q11.2 (b) CNVs and their respective controls. In total, 2,080 beta estimates were obtained from a linear model computed from z-scored connectomes based on the variance of the respective controls. The color hue represents the number of beta estimates in the hexagon bin. Y axis: beta values associated with deletions (CWAS comparing deletions vs controls). X axis: beta-values associated with duplications (CWAS comparing duplications vs controls). (c-d) Each chord diagram shows the top 20% of connections surviving FDR correction (q < 0.05) from the 16p11.2 deletion (c) and 22q11.2 deletion (d) CWAS. Each chord represents a significantly altered connection between two functional seed regions. All 64 seed regions are represented in the dark grey inner circle. The width of the seed region in the grey inner circle corresponds to the number of altered connections. Seed regions are grouped into 12 functional networks (outer ring, Supplementary Table S1.9). Networks are represented in 12 brains below the two diagrams. Red chords represent overconnectivity and blue chords underconnectivity.
 
 <font size="1.5">Source: Clara Moreau https://www.biorxiv.org/content/10.1101/862615v1.full</font>
 
 ### Problematic: 
 
-(Not clear problematic in mind but here is what I want to work on the most)
+#### Main problematic: 
+
+Can a model predict if an individual is carrier of a pathogenic genetic copy number variant based on Brain imagery derived data?
+
+(here is what I want to work on the most)
 1) Avoiding the transformation of the data 
 2) Deal with missing values (see 24''58min in the [presentation of Gaël Varoquaux](https://www.youtube.com/watch?reload=9&v=wIMJVgkQjNY&feature=youtu.be))
 
 ### Aims: 
 
+#### Main goal: 
+Compare the model performances when infering the genetic profile of an individual.
+
 Learning how to:
 1) Properly share project related files
 2) Use machine learning models 
 3) Use python instead of R
-
-Main goal: Compare the model performances when infering the genetic profile of an individual.
 
 ## Tools 
 
