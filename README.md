@@ -62,8 +62,13 @@ The hypothesis is not based on strong assumptions (even if there is multiple pub
 
 #### What is a pathogenic genetic Copy Number Variants (CNV)?
 
+A pathogenic CNV is a gain or a loss of the portion of the DNA, which encompassed genes essential for the normal development of an individual, and which is formally associated to neurodevelopmental disorders or psychiatric disorders. 
+
 <p align="center"> <img src="Figure 1_page-0001.jpg"> 
 </p> 
+
+**Figure 1:** Representation of the 16p11.2 locus. A. 16p11.2 locus with genes (Refseq indentification) and segmental duplications corresponding to breakpoint 4 and 5 (where the DNA is more susceptible to break). Coordinates are based on Hg19 version of the genome reference. B. Coding genes encompassed in the 16p11.2 locus and scores corresponding to their intolerance to loss of function (pLI, observed/expected (o/e), and LOEUF defined by gnomAD v.2.1.1, Karczewski et al., bioRxiv, 2019). Genes in red are intolerant to loss of function. 
+
 <font size="1.5">Source: Chapter in press</font>
 
 
@@ -71,20 +76,23 @@ The hypothesis is not based on strong assumptions (even if there is multiple pub
 
 - **Structural alterations**: 
 
+Multiple studies shown an effect of pathogenic CNVs on global and regional brain structures. 
+
 [Sandra Martin-Brevet et al (2018)](http://www.sciencedirect.com/science/article/pii/S000632231831401X) *Big up Sandra!*: 
 "*Quantifying the Effects of 16p11.2 Copy
 Number Variants on Brain Structure:
 A Multisite Genetic-First Study*"
 
+This paper shows that beyound an effect of the well known 16p11.2 CNV on global brain morphometry, regional alterations were observed in the insula, calcarine cortex, transverse temporal gyrus, caudate and hippocampus. There was a partial overlap with results of meta-analyses performed across psychiatric disorders.
+
 <p align="center">
   <img src="https://ars.els-cdn.com/content/image/1-s2.0-S000632231831401X-gr3.jpg">
 </p>
-Figure 1: Overlap between voxel-based and surface-based results for cortical alterations associated with gene dosage. The relationship between gene dosage and the morphometric features was compared in n = 361. The voxel-based and surface-based statistical maps are thresholded at the multiple comparisons–corrected p value and then projected on the cortical surface mesh. Regions with effect size >1 Cohen’s d and overlapping between voxel-based and surface-based analyses are (A) the bilateral insula, transverse temporal gyrus, calcarine cortex and (B) the precentral, superior and middle temporal gyri. L, left; R, right; VBM, voxel-based morphometry.
+
+**Figure 2:** Overlap between voxel-based and surface-based results for cortical alterations associated with gene dosage. The relationship between gene dosage and the morphometric features was compared in n = 361. The voxel-based and surface-based statistical maps are thresholded at the multiple comparisons–corrected p value and then projected on the cortical surface mesh. Regions with effect size >1 Cohen’s d and overlapping between voxel-based and surface-based analyses are (A) the bilateral insula, transverse temporal gyrus, calcarine cortex and (B) the precentral, superior and middle temporal gyri. L, left; R, right; VBM, voxel-based morphometry.
 
 <p> <font size="1.5">Source: Sandra Martin-Brevet http://www.sciencedirect.com/science/article/pii/S000632231831401X</font>
 </p>
-
-This paper shows that beyound an effect of the well known 16p11.2 CNV on global brain morphometry, regional alterations were observed in the insula, calcarine cortex, transverse temporal gyrus, caudate and hippocampus. There was a partial overlap with results of meta-analyses performed across psychiatric disorders.
 
 - **Connectivity alterations**:
 
