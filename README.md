@@ -10,8 +10,8 @@ Can a model predict if an individual is carrier of a pathogenic genetic copy num
 
 Project contributors: 
 BHS, 
-Elise Alix Douard 
-Kuldeep Kumar @meetkd007 (extracting data from UKBB servers)
+Elise Alix Douard, 
+Kuldeep Kumar [@meetkd007](https://twitter.com/meetkd007) (extracting data from UKBB servers)
 & anyone interested (with access rigths to UKBiobank?)
 
 
@@ -79,8 +79,12 @@ A Multisite Genetic-First Study*"
 <p align="center">
   <img src="https://ars.els-cdn.com/content/image/1-s2.0-S000632231831401X-gr3.jpg">
 </p>
+Figure 1: Overlap between voxel-based and surface-based results for cortical alterations associated with gene dosage. The relationship between gene dosage and the morphometric features was compared in n = 361. The voxel-based and surface-based statistical maps are thresholded at the multiple comparisons–corrected p value and then projected on the cortical surface mesh. Regions with effect size >1 Cohen’s d and overlapping between voxel-based and surface-based analyses are (A) the bilateral insula, transverse temporal gyrus, calcarine cortex and (B) the precentral, superior and middle temporal gyri. L, left; R, right; VBM, voxel-based morphometry.
+
 <p> <font size="1.5">Source: Sandra Martin-Brevet http://www.sciencedirect.com/science/article/pii/S000632231831401X</font>
 </p>
+
+This paper shows that beyound an effect of the well known 16p11.2 CNV on global brain morphometry, regional alterations were observed in the insula, calcarine cortex, transverse temporal gyrus, caudate and hippocampus. There was a partial overlap with results of meta-analyses performed across psychiatric disorders.
 
 - **Connectivity alterations**:
 
