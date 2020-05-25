@@ -1,17 +1,14 @@
 # BLUP: Brain Learning Unicorn Project
 
-Can a model predict if an individual is carrier of a pathogenic genetic copy number variant based on Brain imagery derived data?
+Can a model predict if an the genetic profile of an individual based on brain imagery derived data?
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
 
-
-<p align="left"> <img width="100" height="100" src="cannoe.png"> 
-</p> 
+Team work: UKBB-team with Hannah Kiesow [@hannahmaykiesow](https://twitter.com/hannahmaykiesow)
 
 Project contributors: 
 BHS, 
-Elise Alix Douard, 
-Kuldeep Kumar [@meetkd007](https://twitter.com/meetkd007) (extracting data from UKBB servers)
+Elise Alix Douard, Kuldeep Kumar [@meetkd007](https://twitter.com/meetkd007) (extracting data from UKBB servers), Hannah Kiesow
 & anyone interested (with access rigths to UKBiobank?)
 
 
