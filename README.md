@@ -4,12 +4,13 @@ Can a model predict the genetic profile of an individual based on brain imagery 
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
 
+Author: Elise Alix Douard
+
 Team work: UKBB-team with Hannah Kiesow [@hannahmaykiesow](https://twitter.com/hannahmaykiesow)
 
 Project contributors: 
 BHS, 
-Elise Alix Douard, Kuldeep Kumar [@meetkd007](https://twitter.com/meetkd007) (extracting data from UKBB servers), Hannah Kiesow
-& anyone interested (with access rigths to UKBiobank?)
+Elise Alix Douard, Kuldeep Kumar [@meetkd007](https://twitter.com/meetkd007) (extracting data from UKBB servers)
 
 
 ## Quick presentation
@@ -158,6 +159,10 @@ In this GitHub repository:
 - Jupyter notebook detailing the data (selection, distribution,...), the implementation of machine learning algorithms, and the results
 - All related scipts
 - Slides (using Rise) presenting the project
+
+### Week 3 deliverable: data visualization
+
+link to the assignment: 
 
 ## References
 
