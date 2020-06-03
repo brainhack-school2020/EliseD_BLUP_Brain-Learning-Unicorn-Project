@@ -114,8 +114,8 @@ An effect on connectivity have also been widely shown, but the affected connecti
 Can a model predict if an individual is carrier of a pathogenic genetic copy number variant based on Brain imagery derived data?
 
 (here is what I want to work on the most)
-1) Avoiding the transformation of the data 
-2) Deal with missing values (see 24''58min in the [presentation of Gaël Varoquaux](https://www.youtube.com/watch?reload=9&v=wIMJVgkQjNY&feature=youtu.be))
+1) Avoiding the transformation of the data to facilitate the interpretation of the output: No log transformation, only correction of brain volumes for the confounders (and z-score in function of the mean and sd of the control population IF NEEDED). Boosted trees were recommended by Gael to fit data with various distribution shapes. 
+2) Deal with missing values (see 24''58min in the [presentation of Gaël Varoquaux](https://www.youtube.com/watch?reload=9&v=wIMJVgkQjNY&feature=youtu.be)) -> It appears that there is no missing values in the dataset (I feel lucky and frustrated at the same time...)
 
 ### Aims: 
 
