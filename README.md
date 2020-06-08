@@ -162,7 +162,7 @@ In this GitHub repository:
 
 ### Week 3 deliverable: data visualization
 
-link to the assignment: 
+link to the assignment: https://elise-douard.github.io/EliseAD_BLUP_BlogPage/
 
 ## References
 
