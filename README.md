@@ -101,8 +101,6 @@ Click on the following images to open interactive pie-charts:
 
 **Figure 1**: Proportion of controls and carriers in the training and test sets used for the machine learning models. 
 
-<iframe src="https://elise-douard.github.io/EliseAD_BLUP_BlogPage/blog_content/piechart_traintest.html" width="100%" height="100%"></iframe>
-
 <p align="center">
 <a href="https://elise-douard.github.io/EliseAD_BLUP_BlogPage/blog_content/piechart_traintest.html"><img src="Slide_content/piechart_trainingtest.png" width="700" height="450" title="Click to access to the interactive pie-chart" alt="trainingtestsets"></a>
 </p>
