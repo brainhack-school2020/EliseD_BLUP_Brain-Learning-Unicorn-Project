@@ -52,19 +52,16 @@ Can a model predict the genetic profile of an individual based on brain regions 
 
 This project aims to feed a machine learning model with brain volumes to predict if an individual is carrier of a potentially pathogenic CNV.
 
-
 <p align="center">
   <img src="Slide_content/BLUPproject.png">
 </p>
 
 <p> <font size="1">Source: Illustration inspired from freepik.com content and adapted on adobe illustrator</font></p> 
 
-
 - **Subgoals**:
 
 - [x] Making minimal change to the distribution shape of the volumes
 - [x] Dealing with imbalanced dataset reflecting the reality of the prevalence of pathogenic CNVs in the general population
-
 
 - **Personal goals**: 
 
@@ -95,17 +92,33 @@ For all individuals, the 68 region volumes were adjusted for potential confounde
 |   Carriers  | 1265  |63.8 (7.4)| 1540824.3 (150493.6) | 671 | 594 | 781 | 320 | 164 |
 |  Controls  | 34494 | 64.1	(7.6) | 1549091.7 (151512.6) | 18280 |	16214 |	21411 | 8607 |	4476 |
 
-
 ### Final dataset: training and test sets
 
 A subgoal of the project was to make minimal changes to the features used in the machine learning models. The final volumes used as features were the ones adjusted for the confounder effects without z-scoring. 
 Another subgoal was to deal with imbalanced dataset which reflect the reality of carriers prevalence in the general population. As an alternative, the imbalance was reduced by pseudo-randomly resampling the controls. The final dataset included the 1,265 carriers and twice more controls. 
 
-Click on the following images to open interactive pie-charts showing the proportion of controls and carriers in the training and test sets used for the ML models. 
+Click on the following images to open interactive pie-charts: 
+
+**Figure 1**: Proportion of controls and carriers in the training and test sets used for the machine learning models. 
 
 <p align="center">
 <a href="https://elise-douard.github.io/EliseAD_BLUP_BlogPage/blog_content/piechart_traintest.html"><img src="Slide_content/piechart_trainingtest.png" width="700" height="450" title="Click to access to the interactive pie-chart" alt="trainingtestsets"></a>
 </p>
+
+## Machine learning model used
+
+- Random Forest Classifier using `sklearn.ensemble.RandomForestClassifier` [[documentation]](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- Random Forest with Random Undersampling using `imblearn.ensemble.BalancedRandomForestClassifier` [[documentation]](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.ensemble.BalancedRandomForestClassifier.html)
+- Gradient-Boosted Classification Tree using `sklearn.ensemble.GradientBoostingClassifier` [[documentation]](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+
+## Step followed for the three machine learning models
+
+- Step 1: Training the model on the training set
+- Step 2: Test the model on a validation set
+- Step 3: Cross validation (n fold = 10)
+- Step 4: Playing with the hyperparameter `max_depth` and `n_estimators` (and `learning_rate` for the gradient-boosted tree classifier)
+- Step 5: Testing the model on the test set
+
 
 ## Tools (used and learned)
 
@@ -132,12 +145,18 @@ link to the blog created for the assignment: https://elise-douard.github.io/Elis
 
 ## Results of the models
 
+**Figure 2**: Results after testing the models (step 5)
+<p align="center">
+<img src="Slide_content/Result_step5.png" title="Do you see these awfull stats?" alt="trainingtestsets"></a>
+</p>
 
+As you can see in the Figure 2, none of the models were better than chance to classify the carriers and the controls. 
+BUT it is not a problem because... I learned a lot doing this project! 
 
 ## Progress overview
 
 ### Week one: 
-- Learning tones of new concepts
+- Learning tons of new concepts
 
 ### Week two: 
 - 18 may 2020 Creating the README file
@@ -149,7 +168,7 @@ link to the blog created for the assignment: https://elise-douard.github.io/Elis
 
 ### Week four: 
 - 3 may 2020 Starting slides on jupyter notebook using Rise extension and creating project illustrations on adobe illustrator
-- 5 may 2020 Final presentation of the project with UKBB data and the results of the ML models
+- 5 may 2020 Final presentation of the project with UKBB data and the results of the machine learning models
 
 ### Week five: 
 - 8 may 2020 Final push of the blog for the visualization assignment
@@ -159,7 +178,7 @@ link to the blog created for the assignment: https://elise-douard.github.io/Elis
 
 This BHS project allows me to learn a lot of concepts and tools concerning the open science. It was also a nice introduction to machine learning models. Hopefully, I will spread the word and I will surelly include all these new tools in my practice. I am more than grateful toward all the intructors, mentors and students, who shared their knowledge. 
 
-Thanks for this enriching experiment! 
+<p align="center"> <font size="4"> Thanks for this enriching experiment! </font> </p> 
 
 <p align="center">
   <img src="https://media.giphy.com/media/l0HlN5Y28D9MzzcRy/giphy.gif" height="300">
