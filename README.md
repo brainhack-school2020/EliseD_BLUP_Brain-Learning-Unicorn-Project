@@ -37,15 +37,9 @@ Since I started my Ph.D., I never used MRI data nor python, and I am here to tak
   <img src="Slide_content/illustration_genetic.png">
 </p>
 
-<p> <font size="1">Source: Illustration inspired from freepik.com content and adapted on adobe illustrator</font></p> 
+<p> <font size="1">Source: Illustration inspired from freepik.com content and adapted on adobe illustrator</font></p>  
 
-Copy number variants (CNVs) are a family of structural variation of the chromosomes. They can be either a loss or a gain of a chromosome portion in comparission to a genome of reference. 
-
-Sometimes, CNVs can be pathogenic, meaning that they are formally associated to neurodevelopmental or psychiatric disorders, such as autism spectrum disorders (ASD), Schizophrenia (SZ) or intellectual disability (ID). 
-
-Such pathogenic CNVs have been associated to significant alterations of brain volume ([Modenato et al., 2020](https://www.medrxiv.org/content/10.1101/2020.04.15.20056531v1.full) ; [Martin-Brevet et al., 2018](http://www.sciencedirect.com/science/article/pii/S000632231831401X) ; [Maillard et al., 2015](https://www.nature.com/articles/mp2014145)) or connectivity ([Moreau et al., 2019](https://www.biorxiv.org/content/10.1101/862615v1.full)). 
-
-Notably, there were common alterations of the insula volume when comparing structural brain alterations due to pathogenic CNVs and due to a neurodevelopmental disorder (e.g. ASD or SZ) ([Cauda et al., 2017](https://onlinelibrary.wiley.com/doi/abs/10.1002/aur.1759) ; [Goodkind et al., 2015](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2108651)).
+Copy number variants (CNVs) are a family of structural variation of the chromosomes. They can be either a loss or a gain of a chromosome portion in comparission to a genome of reference. Sometimes, CNVs can be pathogenic, meaning that they are formally associated to neurodevelopmental or psychiatric disorders, such as autism spectrum disorders (ASD), Schizophrenia (SZ) or intellectual disability (ID). Such pathogenic CNVs have been associated to significant alterations of brain volume ([Modenato et al., 2020](https://www.medrxiv.org/content/10.1101/2020.04.15.20056531v1.full) ; [Martin-Brevet et al., 2018](http://www.sciencedirect.com/science/article/pii/S000632231831401X) ; [Maillard et al., 2015](https://www.nature.com/articles/mp2014145)) or connectivity ([Moreau et al., 2019](https://www.biorxiv.org/content/10.1101/862615v1.full)). Notably, there were common alterations of the insula volume when comparing structural brain alterations due to pathogenic CNVs and due to a neurodevelopmental disorder (e.g. ASD or SZ) ([Cauda et al., 2017](https://onlinelibrary.wiley.com/doi/abs/10.1002/aur.1759) ; [Goodkind et al., 2015](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2108651)).
 
 
 ## Problematic 
@@ -87,7 +81,7 @@ This project aims to feed a machine learning model with brain volumes to predict
 
 For this project, 35,759 individuals from [UK Biobank](https://www.ukbiobank.ac.uk/) with genetic and derived brain volume data were available.
 - MRI data (features): All individuals have derived-brain volumes preprocessed on Freesurfer using Desikan parcellation (68 regions) [[cf. documentation for processing pipeline details](https://biobank.ctsu.ox.ac.uk/crystal/crystal/docs/brain_mri.pdf)].
-- Genetic data (labels): 1,265 individuals (3.5% of the cohort) were carriers of at least one of 93 potentially pathogenic CNV identified by [Kendal et al. (2019)](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B).
+- Genetic data (labels): 1,265 individuals (3.5% of the cohort) were carriers of at least one of 93 potentially pathogenic CNV identified by [Kendal et al. (2019)](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/cognitive-performance-and-functional-outcomes-of-carriers-of-pathogenic-copy-number-variants-analysis-of-the-uk-biobank/0D144F6880A46DC94EE27ADEACB5942B). These individuals will constitute the carriers class, all the other will be in the controls class. 
 - Confounders: age, sex, total intracranial volume (TIV) and site of MRI acquisition were available for all individuals. 
 
 ### Data transformation
@@ -99,9 +93,11 @@ For all individuals, the 68 region volumes were adjusted for potential confounde
 A subgoal of the project was to make minimal changes to the features used in the machine learning models. The final volumes used as features were the ones adjusted for the confounder effects without z-scoring. 
 Another subgoal was to deal with imbalanced dataset which reflect the reality of carriers prevalence in the general population. As an alternative, the imbalance was reduced by pseudo-randomly resampling the controls. The final dataset included the 1,265 carriers and twice more controls. 
 
-Here is the proportion of controls and carriers in the final sets:
+Click on the following images to open interactive pie-charts showing the proportion of controls and carriers in the training and test sets used for the ML models. 
 
-
+<p align="center">
+<a href="Interactive_plots/piechart_traintest.html"><img src="https://elise-douard.github.io/EliseAD_BLUP_BlogPage/blog_content/piechart_traintest.html" width="700" height="450" title="Click to access to the interactive pie-chart" alt="trainingtestsets"></a>
+</p>
 
 ## Tools 
 
