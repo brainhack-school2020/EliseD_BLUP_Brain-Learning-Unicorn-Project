@@ -1,5 +1,7 @@
 # BLUP: Brain Learning Unicorn Project
 
+Click [HERE](https://brainhack-school2020.github.io/EliseD_BLUP_Brain-Learning-Unicorn-Project/) to see this readme as a website.
+
 ### ***Can a model predict the genetic profile of an individual based on brain regions volumes?***
 
 *Trying to deal with new stuff learned at the amazing Brainhack school*
