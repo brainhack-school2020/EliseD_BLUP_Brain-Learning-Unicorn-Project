@@ -138,6 +138,10 @@ In this GitHub repository:
 - Prep_visualization_ML_allinone.ipynb: Jupyter notebook with all the instructions and code lines for the data preparation and visualization, the machine learning models training and testing and the results visualization
 - requirements.txt: List of all the package used for this project
 - Slides_Final_week.ipynb: Jupyter notebook using Rise extension for the final presentation of the project
+- Data_for_plots/: Data used for two interactive figures (3D Desikan parcellation map and pie-cart of the sex and site distribution in the carriers and controls)
+- Interactive_plots/: Folder with the html object of the interactive figures
+- Slide_content/: Images used for the Slides_Final_week.ipynb file
+
 
 ### Week 3 deliverable: data visualization
 
