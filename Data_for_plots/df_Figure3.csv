@@ -1,0 +1,11 @@
+,Group,variable,value,confounder
+0,carrier,Female,671,Sex
+1,control,Female,18280,Sex
+2,carrier,Male,594,Sex
+3,control,Male,16214,Sex
+4,carrier,Site 1,781,Site
+5,control,Site 1,21411,Site
+6,carrier,Site 2,320,Site
+7,control,Site 2,8607,Site
+8,carrier,Site 3,164,Site
+9,control,Site 3,4476,Site

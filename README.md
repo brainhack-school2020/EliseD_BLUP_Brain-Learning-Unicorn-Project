@@ -88,6 +88,14 @@ For this project, 35,759 individuals from [UK Biobank](https://www.ukbiobank.ac.
 
 For all individuals, the 68 region volumes were adjusted for potential confounder effects. 
 
+**Table 1:** Description of the confounders
+
+| Goup | N | Mean age (sd) | Mean TIV (sd) | N Female | N Male | N Site 1 | N Site 2 | N Site 3 |
+|:------|:-----:|:---------:|:------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|   Carriers  | 1265  |63.8 (7.4)| 1540824.3 (150493.6) | 671 | 594 | 781 | 320 | 164 |
+|  Controls  | 34494 | 64.1	(7.6) | 1549091.7 (151512.6) | 18280 |	16214 |	21411 | 8607 |	4476 |
+
+
 ### Final dataset: training and test sets
 
 A subgoal of the project was to make minimal changes to the features used in the machine learning models. The final volumes used as features were the ones adjusted for the confounder effects without z-scoring. 
@@ -99,7 +107,7 @@ Click on the following images to open interactive pie-charts showing the proport
 <a href="https://elise-douard.github.io/EliseAD_BLUP_BlogPage/blog_content/piechart_traintest.html"><img src="Slide_content/piechart_trainingtest.png" width="700" height="450" title="Click to access to the interactive pie-chart" alt="trainingtestsets"></a>
 </p>
 
-## Tools 
+## Tools (used and learned)
 
 The project rely on the following technologies:
 - Visual Studio Code
@@ -107,44 +115,70 @@ The project rely on the following technologies:
 - Python (libraries: `pandas`, `numpy`, `nilearn`, `nibabel`, `sklearn`, `scipy`, `random`, `seaborn`, `plotly`, `matplotlib`, `ipywidgets`, `itertools`)
 - Jupyter notebook (Including Markdown, Python code and Slides using the Rise extension)
 
-
-
 ## Deliverables
 
 In this GitHub repository:
-- README file
-- A detailed documentation explaining how the data were acquired, processed, analysed and describing the model used.
-- Jupyter notebook detailing the data (selection, distribution,...), the implementation of machine learning algorithms, and the results
-- All related scipts
-- Slides (using Rise) presenting the project
+- README: Readme file for this project repository
+- Welcoming_vid.mp4: A non-relevant video of welcoming
+- Prep_visualization_ML_allinone.ipynb: Jupyter notebook with all the instructions and code lines for the data preparation and visualization, the machine learning models training and testing and the results visualization
+- requirements.txt: List of all the package used for this project
+- Slides_Final_week.ipynb: Jupyter notebook using Rise extension for the final presentation of the project
 
 ### Week 3 deliverable: data visualization
 
-link to the assignment: https://elise-douard.github.io/EliseAD_BLUP_BlogPage/
+link to the blog created for the assignment: https://elise-douard.github.io/EliseAD_BLUP_BlogPage/
 
 # Results
 
+## Results of the models
+
+
+
 ## Progress overview
 
-## Tools I learned during this project
+### Week one: 
+- Learning tones of new concepts
 
-## Results
+### Week two: 
+- 18 may 2020 Creating the README file
+- 20 May 2020 5 min presentation of the project draft using README file
+- 21 may 2020 Starting to play with data on python and creating the main jupyter notebook
+
+### Week three: 
+- 29 may 2020 Finalization of data preparation (removing confounders) and visualization, starting ML part
+
+### Week four: 
+- 3 may 2020 Starting slides on jupyter notebook using Rise extension and creating project illustrations on adobe illustrator
+- 5 may 2020 Final presentation of the project with UKBB data and the results of the ML models
+
+### Week five: 
+- 8 may 2020 Final push of the blog for the visualization assignment
+- 12 may 2020 Final push of the project on Github and the website
 
 # Conclusion and acknowledgement
 
+This BHS project allows me to learn a lot of concepts and tools concerning the open science. It was also a nice introduction to machine learning models. Hopefully, I will spread the word and I will surelly include all these new tools in my practice. I am more than grateful toward all the intructors, mentors and students, who shared their knowledge. 
+
+Thanks for this enriching experiment! 
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l0HlN5Y28D9MzzcRy/giphy.gif" height="300">
+</p>
+<p align="center"> <font size="1.5"> Source: https://media.giphy.com/</font></p> 
+
 # References
 
-Cauda F. et al., “Are Schizophrenia, Autistic, and Obsessive Spectrum Disorders Dissociable on the Basis of Neuroimaging Morphological Findings?: A Voxel-Based Meta-Analysis.” Autism Research 10, no. 6 (2017): 1079–95. https://doi.org/10.1002/aur.1759.
+Cauda F. et al., “Are Schizophrenia, Autistic, and Obsessive Spectrum Disorders Dissociable on the Basis of Neuroimaging Morphological Findings?: A Voxel-Based Meta-Analysis.” *Autism Research* 10, no. 6 (2017): 1079–95. https://doi.org/10.1002/aur.1759.
 
-Goodkind M. et al., “Identification of a Common Neurobiological Substrate for Mental Illness.” JAMA Psychiatry 72, no. 4 (April 2015): 305–15. https://doi.org/10.1001/jamapsychiatry.2014.2206.
+Goodkind M. et al., “Identification of a Common Neurobiological Substrate for Mental Illness.” *JAMA Psychiatry* 72, no. 4 (April 2015): 305–15. https://doi.org/10.1001/jamapsychiatry.2014.2206.
 
-Kendall K. M. et al., “Cognitive Performance and Functional Outcomes of Carriers of Pathogenic Copy Number Variants: Analysis of the UK Biobank.” The British Journal of Psychiatry 214, no. 5 (May 2019): 297–304. https://doi.org/10.1192/bjp.2018.301.
+Kendall K. M. et al., “Cognitive Performance and Functional Outcomes of Carriers of Pathogenic Copy Number Variants: Analysis of the UK Biobank.” *The British Journal of Psychiatry* 214, no. 5 (May 2019): 297–304. https://doi.org/10.1192/bjp.2018.301.
 
-Maillard A. M. et al., “The 16p11.2 Locus Modulates Brain Structures Common to Autism, Schizophrenia and Obesity.” Molecular Psychiatry 20, no. 1 (February 2015): 140–47. https://doi.org/10.1038/mp.2014.145.
+Maillard A. M. et al., “The 16p11.2 Locus Modulates Brain Structures Common to Autism, Schizophrenia and Obesity.” *Molecular Psychiatry* 20, no. 1 (February 2015): 140–47. https://doi.org/10.1038/mp.2014.145.
 
 Martin-Brevet S. et al., “Quantifying the Effects of 16p11.2 Copy Number Variants on Brain Structure: A Multisite Genetic-First Study.” *Biological Psychiatry*, 84, no. 4 (2018): 253–64. https://doi.org/10.1016/j.biopsych.2018.02.1176.
 
-Modenato C. et al., “Neuropsychiatric Copy Number Variants Exert Shared Effects on Human Brain Structure.” MedRxiv, April 17, 2020, 2020.04.15.20056531. https://doi.org/10.1101/2020.04.15.20056531.
+Modenato C. et al., “Neuropsychiatric Copy Number Variants Exert Shared Effects on Human Brain Structure.” *MedRxiv*, April 17, 2020, 2020.04.15.20056531. https://doi.org/10.1101/2020.04.15.20056531.
 
 Moreau C. et al., “Neuropsychiatric Mutations Delineate Functional Brain Connectivity Dimensions Contributing to Autism and Schizophrenia.” *BioRxiv*, (2019), 862615. https://doi.org/10.1101/862615.
 
