@@ -1,0 +1,27 @@
+#####################################################################################################################
+###                                                                                                               ###
+###                                Packages and extensions used for the project                                   ###
+###                                                                                                               ###
+#####################################################################################################################
+
+
+Python packages used:
+
+	- ipywidgets 7.5.1
+	- tertools
+	- matplotlib 3.2.1
+	- nibabel 3.1.0
+	- nilearn 0.6.2 
+	- numpy 1.18.4
+	- pandas 1.0.3
+	- plotly 4.8.0
+	- random
+	- scikit-learn 0.23.1
+	- scipy 1.4.1
+	- seaborn 0.10.1
+
+
+Extension for Jupyter notebook: 
+	- Slides using Rise 5.6.1: https://rise.readthedocs.io/en/stable/
+	- Table of Content using jupyter_contrib_nbextensions: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html
+
