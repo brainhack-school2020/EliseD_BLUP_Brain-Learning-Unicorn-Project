@@ -1,11 +1,11 @@
 #####################################################################################################################
 ###                                                                                                               ###
-###                                Packages and extensions used for the project                                   ###
+###                                Libraries and extensions used for the project                                  ###
 ###                                                                                                               ###
 #####################################################################################################################
 
 
-Python packages used:
+Python libraries used:
 
 	- ipywidgets 7.5.1
 	- tertools

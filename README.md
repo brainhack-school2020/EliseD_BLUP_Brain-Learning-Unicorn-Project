@@ -125,7 +125,7 @@ The project rely on the following technologies:
 - Visual Studio Code
 - Git/Github 
 - Python (libraries: `pandas`, `numpy`, `nilearn`, `nibabel`, `sklearn`, `scipy`, `random`, `seaborn`, `plotly`, `matplotlib`, `ipywidgets`, `itertools`)
-- Jupyter notebook (Including Markdown, Python code and Slides using the Rise extension)
+- Jupyter notebook (Including, Markdown, Python code and Slides using the Rise extension)
 
 ## Deliverables
 
@@ -133,7 +133,7 @@ In this GitHub repository:
 - README: Readme file for this project repository
 - Welcoming_vid.mp4: A non-relevant video of welcoming
 - Prep_visualization_ML_allinone.ipynb: Jupyter notebook with all the instructions and code lines for the data preparation and visualization, the machine learning models training and testing and the results visualization
-- requirements.txt: List of all the package used for this project
+- requirements.txt: List of all the python libraries and jupyter notebook extensions used for this project
 - Slides_Final_week.ipynb: Jupyter notebook using Rise extension for the final presentation of the project
 - Data_for_plots/: Data used for two interactive figures (3D Desikan parcellation map and pie-cart of the sex and site distribution in the carriers and controls)
 - Interactive_plots/: Folder with the html object of the interactive figures
